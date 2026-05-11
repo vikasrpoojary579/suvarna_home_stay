@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Service - Suvarna Home Stay</title>
+</head>
+<body>
+    <h1>Room Service Request</h1>
+    <div class="back to home page">
+                <a href="about.html">
+                    <button class="go to about page">BACK TO ABOUT PAGE</button>
+                </a>
+    <p>If you need room service or have any problems, please fill out the form below.</p>
+    
+    <form action="#" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="room">Room Number:</label><br>
+        <input type="text" id="room" name="room" required><br><br>
+        
+        <label for="service">Type of Service:</label><br>
+        <select id="service" name="service" required>
+            <option value="">Select Service</option>
+            <option value="cleaning">Room Cleaning</option>
+            <option value="towels">Extra Towels</option>
+            <option value="maintenance">Maintenance</option>
+            <option value="food">we order Food from online can you take it to the room</option>
+             <option value="poor wifi">poor wifi connection</option>
+              <option value="loundry">Laundry Service</option>
+               <option value="check_out">checking out</option>
+            <option value="other">Other</option>
+            
+        </select><br><br>
+        
+        <label for="problem">Describe your problem or request:</label><br>
+        <textarea id="problem" name="problem" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Submit Request">
+    </form>
+</body>
+</html></content>
+<!-- <parameter name="filePath">c:\Users\Asus\OneDrive\Desktop\html_project1\main_project_folder\room_service.html -->

@@ -1,0 +1,60 @@
+﻿<html>
+    <head>
+        <title>check availability</title>
+    </head>
+    <body style="text-align: center;">
+        <h1>Check Availability</h1>
+
+        <section>
+            <h2>Room Availability</h2>
+            <p>Home stay rooms available: <strong>Yes</strong></p>
+            <p>Price per night: <strong>₹1500</strong></p>
+            <p>Discount: <strong>10% off for 3 or more nights</strong></p>
+        </section>
+
+        <section>
+            <h2>Customer Details</h2>
+            <form action="room_booking_application.html" method="get">
+                <label for="customer-name">Name</label><br>
+                <input type="text" id="customer-name" name="customer-name" required><br><br>
+
+                <label for="customer-phone">Phone</label><br>
+                <input type="tel" id="customer-phone" name="customer-phone" required><br><br>
+
+                <label for="customer-email">Email</label><br>
+                <input type="email" id="customer-email" name="customer-email" required><br><br>
+
+                <label for="checkin-date">Check-in date</label><br>
+                <input type="date" id="checkin-date" name="checkin-date" required><br><br>
+
+                <label for="nights">Number of nights</label><br>
+                <input type="number" id="nights" name="nights" min="1" max="30" value="1" required><br><br>
+
+                <label for="refund-option">Refund option</label><br>
+                <input type="radio" id="refund-yes" name="refund-option" value="yes">
+                <label for="refund-yes">Yes, request refund</label><br>
+                <input type="radio" id="refund-no" name="refund-option" value="no" checked>
+                <label for="refund-no">No refund needed</label><br><br>
+
+                <label for="refund-reason">Refund reason</label><br>
+                <textarea id="refund-reason" name="refund-reason" rows="4" cols="40" placeholder="Enter refund reason if needed"></textarea><br><br>
+
+                <button type="submit">Proceed to Room Booking Application</button>
+            </form>
+        </section>
+        <a href="index.html">
+            <button class="go back to home page">
+                go back to home page
+            </button>
+        </a>
+        <!-- footer -->
+          <footer style="background-color: black;">
+                <div class="contact information" style="color: white;">
+                    <h3>contact information</h3>
+                    <p>Address:Kanyady, opposite Aegis auto gas, Daramasthala, Kalmanja, Karnataka 574216</p>
+                    <p>Phone: 97416 80011</p>
+                    <p>Email: info@suvarnahomestay.com</p>
+                </div>
+            </footer>
+    </body>
+</html>
